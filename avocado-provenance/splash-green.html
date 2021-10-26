@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv = "refresh" content = "2; url = home01.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/custom-icon.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,600;1,700;1,900&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css"> 
+
+    <title>Welcome to Avocado</title>
+  </head>
+  <body class="splash-green">
+    <!-- loader start-->
+    <div id="overlayer"></div>
+    <span class="loader">
+      <span class="loader-inner"></span>
+    </span>
+    <!-- loader start-->
+    <div>      
+      <header class="text-center header-module mb-auto w-100">
+        <div class="logo p-4">
+          <img class="img-fluid" src="images/white-logo.svg" />
+        </div>
+      </header>
+      <section class="w-100">
+        <!-- <p class="text-center">Fetching product details</p> -->
+        <div class="shapebox mt-5 mb-5 text-center"><img class="img-fluid" src="images/sleep-girl.png"/></div>        
+      </section>
+      <div class="text-center screen-green w-100">
+        <h5>Go Natural</h5>
+        <h1>LIVE GREEN</h1>
+        <h5>Sleep Well</h5>
+      </div>
+    </div>
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>    
+
+    <script>
+     $(window).load(function() {
+        $(".loader").delay(2000).fadeOut("slow");
+        $("#overlayer").delay(2000).fadeOut("slow");
+      })            
+    </script>
+  </body>
+</html>
